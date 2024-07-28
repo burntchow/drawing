@@ -1,14 +1,14 @@
+
+
 const canvas = document.getElementById('drawingCanvas');
 const ctx = canvas.getContext('2d');
 const colorPicker = document.getElementById('colorPicker');
 
-// Function to resize the canvas
 function resizeCanvas() {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 }
 
-// Resize the canvas initially and when the window is resized
 window.addEventListener('resize', resizeCanvas);
 resizeCanvas();
 
